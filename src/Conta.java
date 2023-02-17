@@ -2,7 +2,7 @@ public class Conta {
     float saldo;
     int numeroConta;
     int agencia;
-    String nomeTitular;
+    Cliente nomeTitular;
 
     public void depositar(float valor) {
         this.saldo += valor;
