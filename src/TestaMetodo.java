@@ -10,5 +10,7 @@ public class TestaMetodo {
 
         Conta novaConta02 = new Conta();
         novaConta01.transferir(20, novaConta02);
+        System.out.println(novaConta02.saldo);
+        System.out.println(novaConta01.saldo);
     }
 }

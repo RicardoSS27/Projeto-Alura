@@ -21,8 +21,11 @@ public class Conta {
     public boolean transferir(float valor, Conta numeroContaDestino) {
         if (saldo >= valor) {
             this.saldo -= valor;
+            numeroContaDestino.depositar(valor);
+            return  true;
         } else {
             System.out.println("Saldo Insuficiente!");
+            return false;
         }
     }
 }
