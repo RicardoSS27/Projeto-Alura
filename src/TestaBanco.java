@@ -11,5 +11,6 @@ public class TestaBanco {
         contaSibelly.nomeTitular = sibelly;
         System.out.println(contaSibelly.nomeTitular);
         System.out.println(contaSibelly.nomeTitular.nome);
+        System.out.println(contaSibelly.nomeTitular.cpf);
     }
 }
