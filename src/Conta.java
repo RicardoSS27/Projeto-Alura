@@ -13,7 +13,7 @@ public class Conta {
             this.saldo -= valor;
             return true;
         } else {
-            System.out.println("Saldo Insuficiente!");
+            System.out.println("Saldo Insuficiente para sacar!");
             return false;
         }
     }
@@ -24,7 +24,7 @@ public class Conta {
             numeroContaDestino.depositar(valor);
             return  true;
         } else {
-            System.out.println("Saldo Insuficiente!");
+            System.out.println("Saldo Insuficiente para transferir!");
             return false;
         }
     }

@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Alura2/Alura2.iml" filepath="$PROJECT_DIR$/Alura2/Alura2.iml" />
       <module fileurl="file://$PROJECT_DIR$/Projeto Alura.iml" filepath="$PROJECT_DIR$/Projeto Alura.iml" />
     </modules>
   </component>
