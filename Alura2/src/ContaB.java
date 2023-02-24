@@ -3,6 +3,15 @@ public class ContaB {
     private int numeroConta;
     private int agencia;
     private ClienteB nomeTitular;
+    private static int total;
+
+    public ContaB(int agencia, int numeroConta) {
+        total++;
+        System.out.println("Uma nova conta está sendo criada!");
+        this.numeroConta = numeroConta;
+        this.agencia = agencia;
+
+    }
 
     public void depositar(float valor) {
         this.saldo += valor;
