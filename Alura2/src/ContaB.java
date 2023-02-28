@@ -6,11 +6,12 @@ public class ContaB {
     private static int total;
 
     public ContaB(int agencia, int numeroConta) {
-        total++;
+        ContaB.total++;
         System.out.println("Uma nova conta está sendo criada!");
         this.numeroConta = numeroConta;
         this.agencia = agencia;
-
+        System.out.println("Conta criada com sucesso!");
+        System.out.println("O número da conta é " + this.numeroConta);
     }
 
     public void depositar(float valor) {
@@ -64,5 +65,9 @@ public class ContaB {
 
     public ClienteB getNomeTitular() {
         return nomeTitular;
+    }
+
+    public static int getTotal (){
+        return ContaB.total;
     }
 }
